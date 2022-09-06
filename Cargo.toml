@@ -1,0 +1,18 @@
+[package]
+authors     = ["MikhailMS <1488maiklm@gmail.com>"]
+categories  = ["embedded","no-std"]
+description = "Simple text scroller for micro:bit"
+edition     = "2018"
+homepage    = "https://github.com/MikhailMS/microbit-text-scroller"
+keywords    = ["microbit", "text", "scroller"]
+license     = "MIT"
+name        = "microbit-text-scroller"
+readme      = "README.md"
+repository  = "https://github.com/MikhailMS/microbit-text-scroller"
+version     = "0.1.0"
+
+
+[dependencies]
+heapless        = "0.7.10"
+microbit-v2     = "0.12.0"
+tiny-led-matrix = "1.0.2"
